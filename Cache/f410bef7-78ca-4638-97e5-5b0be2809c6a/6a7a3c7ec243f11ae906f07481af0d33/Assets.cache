@@ -1,0 +1,13 @@
+- !<AssetCache/6a7a3c7e-c243-f11a-e906-f07481af0d33>
+  AssetFiles:
+    d8d8b9d8-acff-4bbd-aaad-fc1aea56e7b2: f410bef7-78ca-4638-97e5-5b0be2809c6a/6a7a3c7ec243f11ae906f07481af0d33/Data/guitar.jpg
+  Assets:
+    - !<FileTexture/d8d8b9d8-acff-4bbd-aaad-fc1aea56e7b2>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 512
+        Height: 512
+  SourceHash: 6a7a3c7ec243f11ae906f07481af0d33
+  FileHash: 71a0ba42a4e41f35b3fea2f8f1efd457
+  NativePackageItems:
+    []

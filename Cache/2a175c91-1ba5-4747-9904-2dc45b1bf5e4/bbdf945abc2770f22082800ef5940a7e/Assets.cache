@@ -1,0 +1,13 @@
+- !<AssetCache/bbdf945a-bc27-70f2-2082-800ef5940a7e>
+  AssetFiles:
+    b8c28150-f222-4a43-bcc1-c7b4380313d2: 2a175c91-1ba5-4747-9904-2dc45b1bf5e4/bbdf945abc2770f22082800ef5940a7e/Data/generate a logo of a phone app related t.jpg
+  Assets:
+    - !<FileTexture/b8c28150-f222-4a43-bcc1-c7b4380313d2>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 512
+        Height: 512
+  SourceHash: bbdf945abc2770f22082800ef5940a7e
+  FileHash: e94bb3c5e98af37a91dfad7a6955dbc7
+  NativePackageItems:
+    []
