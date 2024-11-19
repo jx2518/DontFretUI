@@ -3,7 +3,6 @@
   objects:
     - !<own> 00000000-0000-0065-0000-000000000064
     - !<own> 0005641c-028d-459a-0000-000000014b4d
-    - !<own> 597f6fa4-23e5-4230-9e74-1ece142cd000
   layers: !<Layers/267ee9a7-aff2-4f9d-9a49-f71214747d03>
     userLayers:
       []
@@ -24,7 +23,7 @@
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   Children:
-    []
+    - !<own> 77b9f90a-bc8f-4e91-822f-342111043f4f
   Components:
     - !<own> 00000000-0000-0065-0000-000000000065
     - !<own> e5553c8a-0b7e-4ef4-92d9-3e1318fb82c1
@@ -460,9 +459,9 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 0.000000, y: 3.166710, z: -0.000003}
-    rotation: {x: 0.000035, y: -0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    position: {x: 2.567787, y: 21.356564, z: -7.772791}
+    rotation: {x: -99.186615, y: 19.484655, z: -22.115213}
+    scale: {x: 0.999999, y: 1.000001, z: 0.999999}
     hasSegmentScaleCompensation: false
   Children:
     - !<own> f855b207-518f-4e25-9d10-748cf77e257a
@@ -724,7 +723,7 @@
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   Children:
-    - !<own> 0979b49a-4a5f-4339-86e8-3640d54917de
+    []
   Components:
     []
 - !<ScriptComponent/10acc28e-5d79-4300-b16b-3a471a7ab9be>
@@ -926,12 +925,18 @@
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
   Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
     Enabled: false
     Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     Size: 0.250000
   Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
     Enabled: false
@@ -939,6 +944,9 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
   Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
@@ -947,6 +955,9 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     Margins:
       left: 0.000000
       bottom: 0.000000
@@ -1058,12 +1069,18 @@
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
   Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
     Enabled: false
     Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     Size: 0.250000
   Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
     Enabled: true
@@ -1071,6 +1088,9 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
   Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
@@ -1079,6 +1099,9 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     Margins:
       left: 0.000000
       bottom: 0.000000
@@ -1340,12 +1363,18 @@
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
   Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
     Enabled: false
     Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     Size: 0.250000
   Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
     Enabled: true
@@ -1353,6 +1382,9 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
   Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
@@ -1361,6 +1393,9 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     Margins:
       left: 0.000000
       bottom: 0.000000
@@ -2255,6 +2290,16 @@
   Components:
     - !<own> 2aac239e-11b5-41e6-aca1-f36de367731b
     - !<own> 1a4016bf-8cec-4f79-bda8-c34b6660e85d
+- !<LookAtComponent/3a0fd2bc-0ff8-4d5c-badf-3d5caefb36cd>
+  PrefabRemaps:
+    []
+  Name: Look At
+  Enabled: true
+  LookAtMode: LookAtPoint
+  AimVectors: ZAimYUp
+  WorldUpVector: SceneY
+  Target: !<reference> 00000000-0000-0065-0000-000000000064
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
 - !<SceneObject/3a8e4b65-b785-4f04-9699-fdb009c0b2fa>
   PrefabRemaps:
     []
@@ -3100,12 +3145,18 @@
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
   Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
     Enabled: false
     Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     Size: 0.250000
   Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
     Enabled: true
@@ -3113,6 +3164,9 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
   Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
@@ -3121,6 +3175,9 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     Margins:
       left: 0.000000
       bottom: 0.000000
@@ -3723,12 +3780,18 @@
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
   Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
     Enabled: false
     Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     Size: 0.250000
   Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
     Enabled: true
@@ -3736,6 +3799,9 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
   Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
@@ -3744,6 +3810,9 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     Margins:
       left: 0.000000
       bottom: 0.000000
@@ -3781,9 +3850,9 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    position: {x: 0.000000, y: 10.000000, z: 0.000000}
     rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    scale: {x: 0.320000, y: 0.320000, z: 0.320000}
     hasSegmentScaleCompensation: false
   Children:
     - !<own> 99075b90-78a8-4904-9d1c-96aadc490f11
@@ -3795,7 +3864,7 @@
     - !<own> 1a151021-44e9-4f26-9581-e22af688eac9
     - !<own> 430ada45-8398-45f6-a513-8cb02465f6f9
   Components:
-    []
+    - !<own> 3a0fd2bc-0ff8-4d5c-badf-3d5caefb36cd
 - !<SceneObject/5ec4fd6f-5b36-4c34-9962-9c302e97d838>
   PrefabRemaps:
     []
@@ -3841,12 +3910,18 @@
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
   Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
     Enabled: false
     Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     Size: 0.250000
   Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
     Enabled: true
@@ -3854,6 +3929,9 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
   Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
@@ -3862,6 +3940,9 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     Margins:
       left: 0.000000
       bottom: 0.000000
@@ -4427,6 +4508,21 @@
     - !<own> 1418bf88-4b55-41f3-b128-70dd0d59039f
   Components:
     []
+- !<SceneObject/77b9f90a-bc8f-4e91-822f-342111043f4f>
+  PrefabRemaps:
+    []
+  Name: Object
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 597f6fa4-23e5-4230-9e74-1ece142cd000
+  Components:
+    - !<own> e38e8d26-a188-49de-bd2a-db7011c91939
 - !<SceneObject/7975bed7-527e-4086-b3d6-af250effa0ae>
   PrefabRemaps:
     []
@@ -4778,12 +4874,18 @@
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
   Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
     Enabled: false
     Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     Size: 0.250000
   Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
     Enabled: true
@@ -4791,6 +4893,9 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
   Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
@@ -4799,6 +4904,9 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     Margins:
       left: 0.000000
       bottom: 0.000000
@@ -5004,12 +5112,18 @@
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
   Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
     Enabled: false
     Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
       Mode: Solid
       Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     Size: 0.250000
   Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
     Enabled: false
@@ -5017,6 +5131,9 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
   Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
@@ -5025,6 +5142,9 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     Margins:
       left: 0.000000
       bottom: 0.000000
@@ -5411,12 +5531,18 @@
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
   Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
     Enabled: false
     Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     Size: 0.250000
   Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
     Enabled: false
@@ -5424,6 +5550,9 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
   Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
@@ -5432,6 +5561,9 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     Margins:
       left: 0.000000
       bottom: 0.000000
@@ -5626,12 +5758,18 @@
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
   Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
     Enabled: false
     Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     Size: 0.250000
   Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
     Enabled: true
@@ -5639,6 +5777,9 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
   Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
@@ -5647,6 +5788,9 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     Margins:
       left: 0.000000
       bottom: 0.000000
@@ -6458,6 +6602,7 @@
     hasSegmentScaleCompensation: false
   Children:
     - !<own> cf3bc4e4-ebc8-4bba-9fa6-b51856e9947d
+    - !<own> 0979b49a-4a5f-4339-86e8-3640d54917de
   Components:
     []
 - !<ScriptComponent/b9261a04-2895-4578-9bf3-e37f259ea3af>
@@ -6793,12 +6938,18 @@
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
   Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
     Enabled: false
     Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     Size: 0.250000
   Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
     Enabled: true
@@ -6806,6 +6957,9 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
   Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
@@ -6814,6 +6968,9 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     Margins:
       left: 0.000000
       bottom: 0.000000
@@ -7629,6 +7786,12 @@
   BlendNormals: false
   BlendShapes:
     {}
+- !<MarkerTrackingComponent/e38e8d26-a188-49de-bd2a-db7011c91939>
+  PrefabRemaps:
+    []
+  Name: Marker Tracking
+  Enabled: true
+  Marker: !<reference> 3963b345-7231-42f2-b4f9-bbae1988d761
 - !<ScriptComponent/e3d816f1-5387-4330-97d5-d1dd93d2d83c>
   PrefabRemaps:
     []
@@ -7745,12 +7908,18 @@
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
   Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
     Enabled: false
     Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     Size: 0.250000
   Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
     Enabled: true
@@ -7758,6 +7927,9 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
   Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
@@ -7766,6 +7938,9 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     Margins:
       left: 0.000000
       bottom: 0.000000
@@ -8022,12 +8197,18 @@
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
   Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
     Enabled: false
     Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     Size: 0.250000
   Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
     Enabled: true
@@ -8035,6 +8216,9 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
   Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
@@ -8043,6 +8227,9 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     Margins:
       left: 0.000000
       bottom: 0.000000
@@ -8180,12 +8367,18 @@
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
   Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
     Enabled: false
     Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     Size: 0.250000
   Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
     Enabled: true
@@ -8193,6 +8386,9 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
   Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
@@ -8201,6 +8397,9 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     Margins:
       left: 0.000000
       bottom: 0.000000
@@ -8763,12 +8962,18 @@
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
   Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
     Enabled: false
     Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     Size: 0.250000
   Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
     Enabled: true
@@ -8776,6 +8981,9 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
   Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
@@ -8784,6 +8992,9 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
     Margins:
       left: 0.000000
       bottom: 0.000000
