@@ -22,6 +22,8 @@ checkUndefined("enableVerticalScroll", []);
 checkUndefined("_enableScrollInertia", []);
 // @input bool enableScrollLimit = true
 checkUndefined("enableScrollLimit", []);
+// @input float autoScrollSpeed = 1.0
+checkUndefined("autoScrollSpeed", []);
 // @input float _scrollLimit = 0.3 {"widget":"slider", "min":0, "max":1, "step":0.01}
 checkUndefined("_scrollLimit", []);
 // @input vec2 scrollAreaBounds = "{1, 1}"

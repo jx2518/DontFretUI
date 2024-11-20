@@ -27,6 +27,7 @@
     _debugDrawEnabled: false
     _enableScrollInertia: false
     _scrollLimit: false
+    autoScrollSpeed: false
     enableHorizontalScroll: false
     enableScrollLimit: false
     enableVerticalScroll: false
@@ -41,6 +42,7 @@
       enableScrollLimit: true
       _scrollLimit: 0.300000
       scrollAreaBounds: !<Vec2> {x: 1.000000, y: 1.000000}
+      autoScrollSpeed: !<float> 1.000000
   ScriptTypes:
     -
       {}
@@ -50,5 +52,6 @@
     - // @input bool enableVerticalScroll = true
     - // @input bool _enableScrollInertia = true
     - // @input bool enableScrollLimit = true
+    - // @input float autoScrollSpeed = 1.0
     - '// @input float _scrollLimit = 0.3 {"widget":"slider", "min":0, "max":1, "step":0.01}'
     - '// @input vec2 scrollAreaBounds = "{1, 1}"'

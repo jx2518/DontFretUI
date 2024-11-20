@@ -38,6 +38,10 @@ let ScrollView = class ScrollView extends BaseScriptComponent {
         this.scrollProvider = this.createScrollProvider(this.scrollArea);
         this.mask = this.sceneObject.createComponent('Component.MaskingComponent');
         this.defineScriptEvents();
+        this.updateEvent.bind(() => {
+            const deltaTime = getDeltaTime();
+            this.scrollProvider.autoScroll(deltaTime, this.autoScrollSpeed);
+        });
     }
     onDestroy() {
         this.scrollArea.destroy();

@@ -1,5 +1,6 @@
 ExternalSources:
   type: "std::map<class Es::Uuid,class Es::Path,struct std::less<class Es::Uuid>,class std::allocator<struct std::pair<class Es::Uuid const ,class Es::Path> > >"
   value:
-    []
+    - a90a1de0-e47e-43cb-93f7-40b78e037627: "C:/Users/13590/OneDrive/Desktop/Columbia/chords.png"
+    - dddf1879-20e2-46a7-90ca-3b72a2db1be9: "C:/Users/13590/OneDrive/Desktop/Columbia/Marker.png"
   options: 4

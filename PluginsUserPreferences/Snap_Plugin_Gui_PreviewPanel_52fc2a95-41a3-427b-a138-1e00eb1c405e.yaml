@@ -16,11 +16,11 @@ frameRate:
   options: 4
 frontCameraMultimedia:
   type: string
-  value: PreviewResources.bundle/Video/World/Cactus.mp4
+  value: PreviewResources.bundle/Video/Idle/Idle.mp4
   options: 4
 fullscreenSpectaclesSimulation:
   type: bool
-  value: false
+  value: true
   options: 4
 lastPosition:
   type: vec3
@@ -36,7 +36,7 @@ mirrorHorizontally:
   options: 4
 previewSource:
   type: string
-  value: PreviewResources.bundle/Video/World/Cactus.mp4
+  value: PreviewResources.bundle/Video/Idle/Idle.mp4
   options: 4
 previewType:
   type: string
@@ -52,7 +52,7 @@ recordTrackingData:
   options: 4
 simulatedDevice:
   type: string
-  value: Spectacles (2024)
+  value: No Simulation
   options: 4
 stereoEye:
   type: string
