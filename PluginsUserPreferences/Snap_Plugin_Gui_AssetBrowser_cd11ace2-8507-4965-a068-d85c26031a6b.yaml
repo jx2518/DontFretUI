@@ -1,10 +1,17 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 21
+    size: 30
     values:
       - Echopark.hdr
-      - Script.js
+      - PBR 3.mat
+      - Scripts/musictheory.js
+      - SpectaclesInteractionKit/Assets/Audio
+      - SpectaclesInteractionKit/Assets/Materials
+      - SpectaclesInteractionKit/Assets/Meshes
+      - SpectaclesInteractionKit/Assets/Shaders
+      - SpectaclesInteractionKit/Assets/Shaders/BaseHandVisualsShaders
+      - SpectaclesInteractionKit/Assets/Textures
       - SpectaclesInteractionKit/Components/UI/ContainerFrame
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/Materials
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/Meshes
@@ -24,4 +31,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Providers
       - SpectaclesInteractionKit/Utils
       - SpectaclesInteractionKit/package.native
+      - UI Discrete Picker 2.lsc
+      - UI Discrete Picker.lsc
   options: 4

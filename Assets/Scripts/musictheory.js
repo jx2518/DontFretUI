@@ -4,7 +4,7 @@
 var currentNoteIndex = -1;
 
 // Function to play a random note
-script.api.onLensTurnedOn = function playRandomNote() {
+function playRandomNote() {
     currentNoteIndex = Math.floor(Math.random() * script.noteSounds.length);
     script.noteSounds[currentNoteIndex].play(1);
 }
@@ -22,7 +22,7 @@ function checkSelection(selectedIndex) {
 // Assign touch events to each ball
 for (var i = 0; i < script.noteBalls.length; i++) {
     (function(index) {
-        script.noteBalls[index].getComponent("Component.TouchComponent").addTouchStartEvent(function() {
+        script.noteBalls[index].getComponent("Component.ToggleButton").addTouchStartEvent(function() {
             checkSelection(index);
         });
     })(i);
